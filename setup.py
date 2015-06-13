@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='drf-dark-theme',
-    version='0.1',
+    version='0.1.9',
     description='Dark Theme for Django Rest Framework',
     long_description=open('README.rst').read(),
     author='Alessio Di Stasio',
@@ -13,7 +13,7 @@ setup(
     license='BSD',
     packages=find_packages(exclude=['tests']),
     install_requires=[
-        'djangorestframework>=2.3.5',
+        'djangorestframework>=3',
     ],
     include_package_data=True,
     classifiers=[
