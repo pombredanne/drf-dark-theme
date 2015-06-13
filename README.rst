@@ -3,18 +3,26 @@ drf-dark-theme
 
 .. image:: https://img.shields.io/pypi/v/drf-dark-theme.svg
 
-Dark them for `Django REST Framework`_
+Dark themes for `Django REST Framework`_
 
 .. _Django REST Framework: https://github.com/tomchristie/django-rest-framework
 
-Color Palette
+Stellar Color Palette
+----------------------
+.. image:: https://raw.githubusercontent.com/aledista/drf-dark-theme/master/drf_dark_theme/static/drf_dark_theme/img/stellar-palette.png
+
+Stellar Theme
 -------------
-.. image:: https://raw.githubusercontent.com/aledista/drf-dark-theme/master/drf_dark_theme/static/drf_dark_theme/img/color-palette.png
+.. image:: https://raw.githubusercontent.com/aledista/drf-dark-theme/master/drf_dark_theme/static/drf_dark_theme/img/stellar-ss.png
 
-Screenshot
-----------
-.. image:: https://raw.githubusercontent.com/aledista/drf-dark-theme/master/drf_dark_theme/static/drf_dark_theme/img/screenshot.png
 
+Moonshine Color Palette
+-----------------------
+.. image:: https://raw.githubusercontent.com/aledista/drf-dark-theme/master/drf_dark_theme/static/drf_dark_theme/img/moonshine-palette.png
+
+Moonshine Theme
+---------------
+.. image:: https://raw.githubusercontent.com/aledista/drf-dark-theme/master/drf_dark_theme/static/drf_dark_theme/img/moonshine-ss.png
 
 Installation
 ============
@@ -34,13 +42,13 @@ Add 'drf_chaos' to your INSTALLED_APPS setting
         'drf_dark_theme',
     )
 
-Add 'DarkBrowsableAPIRenderer' to DEFAULT_RENDERER_CLASSES
+Add either ``StellarBrowsableAPIRenderer`` or ``MoonshineBrowsableAPIRenderer`` to ``DEFAULT_RENDERER_CLASSES``
 
 ::
 
     REST_FRAMEWORK = {
         'DEFAULT_RENDERER_CLASSES': (
             ...
-            'drf_dark_theme.renderers.DarkBrowsableAPIRenderer',
+            'drf_dark_theme.renderers.StellarBrowsableAPIRenderer',
         )
     }

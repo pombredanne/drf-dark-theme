@@ -4,8 +4,8 @@ from setuptools import setup, find_packages
 
 setup(
     name='drf-dark-theme',
-    version='0.2.1',
-    description='Dark Theme for Django Rest Framework',
+    version='0.3',
+    description='Dark Themes for Django Rest Framework',
     long_description=open('README.rst').read(),
     author='Alessio Di Stasio',
     author_email='aledista@gmail.com',

@@ -33,6 +33,6 @@ INSTALLED_APPS = [
 REST_FRAMEWORK = {
     'DEFAULT_RENDERER_CLASSES': (
         'rest_framework.renderers.JSONRenderer',
-        'drf_dark_theme.renderers.DarkBrowsableAPIRenderer',
+        'drf_dark_theme.renderers.MoonshineBrowsableAPIRenderer',
     )
 }
