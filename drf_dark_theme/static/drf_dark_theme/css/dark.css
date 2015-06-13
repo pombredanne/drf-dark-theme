@@ -1,0 +1,72 @@
+body {
+  background-color: #222;
+}
+
+a, h1, h2, h3, h4, h5 {
+  font-family: monospace;
+  color: #a61717;
+}
+
+.navbar {
+  border-top: 3px solid #D2691E;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #222222;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace;
+  font-size: 12px;
+}
+
+
+ul.breadcrumb {
+  background-color: black;
+}
+
+.breadcrumb li.active a {
+  color: darkred;
+}
+
+b {
+  color: darkred;
+}
+
+.pln {
+  font-size: 15px;
+  color: darkred;
+}
+
+.str, .atv {
+  color: #6ab825;
+}
+
+.pun {
+  color: darkred;;
+}
+
+.lit {
+  color: #D2691E;
+}
+
+.prettyprint {
+  background-color: black;
+}
+
+.btn-primary {
+  color: #D2691E;
+  background-color: black;
+  border-color: darkred;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #D2691E;
+  background-color: #222222;
+  border-color: darkred;
+}
